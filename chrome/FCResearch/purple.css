@@ -1,9 +1,9 @@
 @-moz-document domain(fcresearch-na.aka.amazon.com) {
     body {
-        background-color: #a080f3 !important;
+        background-color: #f0e8ff !important;
     }
     button {
-        background-color: #e0d0f3 !important;
+        background-color: #d8c0f3 !important;
     }
     .a-box > .a-box-inner {
         background-color: #e0d0f3 !important;
@@ -16,14 +16,14 @@
         background-color: rgba(0, 0, 0, 0);
     } 
     #side-bar {
-        background-color: #9080f3 !important;
-        overflow-y: scroll !important;
+        background-color: #f0e8ff !important;
+        overflow-y: auto !important;
     }
     .a-expander-header {
         background-color: #8050f3 !important;
     }
     .a-expander-content{
-        background-color: #a080f3 !important;
+        background-color: #e0d0f3 !important;
     }
     .a-link-section-expander {
         background-color: #8050f3 !important;
