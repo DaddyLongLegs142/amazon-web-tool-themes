@@ -1,0 +1,37 @@
+@-moz-document domain(fcresearch-na.aka.amazon.com) {
+    body {
+        background-color: #a080f3 !important;
+    }
+    button {
+        background-color: #e0d0f3 !important;
+    }
+    .a-box > .a-box-inner {
+        background-color: #e0d0f3 !important;
+    }
+    .a-box-title > .a-box-inner{        
+        background-color: #8050f3 !important;
+    }
+    .aui-nav-row {
+        background: linear-gradient(#ffffff, #a080f3) !important;
+        background-color: rgba(0, 0, 0, 0);
+    } 
+    #side-bar {
+        background-color: #9080f3 !important;
+    }
+    .a-expander-header {
+        background-color: #8050f3 !important;
+    }
+    .a-expander-content{
+        background-color: #a080f3 !important;
+    }
+    .a-link-section-expander {
+        background-color: #8050f3 !important;
+    }
+    table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
+        background-color:#e5d5f3 !important;
+    }
+    #drawer-handle:hover .separator {
+        background: -moz-linear-gradient(left,rgba(255,255,255,0),rgba(69,0,237,.7)) !important;
+        border-right-color: #30e !important;
+    }
+} 
