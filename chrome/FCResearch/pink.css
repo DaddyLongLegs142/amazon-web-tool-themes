@@ -1,0 +1,41 @@
+@-moz-document domain(fcresearch-na.aka.amazon.com) {
+    body {
+        background-color: #f380a0 !important;
+    }
+    button {
+        background-color: #f3d0e0 !important;
+    }
+    .a-box > .a-box-inner {
+        background-color: #f3D0E0 !important;
+    }
+    .a-box-title > .a-box-inner{        
+        background-color: #f35080 !important;
+    }
+    .aui-nav-row {
+        background: linear-gradient(#ffffff, #f380a0) !important;
+        background-color: rgba(0, 0, 0, 0);
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(238, 128, 160))!important;
+        background-size: auto;
+        background-origin: padding-box;
+        background-clip: border-box;
+    } 
+    #side-bar {
+        background-color: #f38090 !important;
+    }
+    .a-expander-header {
+        background-color: #f35080 !important;
+    }
+    .a-expander-content{
+        background-color: #f380a0 !important;
+    }
+    .a-link-section-expander {
+        background-color: #f35080 !important;
+    }
+    table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
+        background-color:#F3d5e5 !important;
+    }
+} 
