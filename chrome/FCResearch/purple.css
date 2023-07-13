@@ -17,6 +17,7 @@
     } 
     #side-bar {
         background-color: #9080f3 !important;
+        overflow-y: scroll !important;
     }
     .a-expander-header {
         background-color: #8050f3 !important;
