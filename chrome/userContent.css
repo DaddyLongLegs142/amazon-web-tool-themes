@@ -1,4 +1,8 @@
-@-moz-document domain(fcresearch-na.aka.amazon.com) {
+@import "./FCResearch/pink.css"
+
+@import "./Sideline/pink.css"
+
+/* @-moz-document domain(fcresearch-na.aka.amazon.com) {
     body {
         background-color: #f380a0 !important;
     }
@@ -65,4 +69,4 @@
     .alert--error {
         background-color: #ff2200 !important;
     }
-}
+} */
