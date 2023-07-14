@@ -5,11 +5,15 @@
     button {
         background-color: #d8c0f3 !important;
     }
+    .dataTables_scrollBody {
+        max-height: 90vh !important;
+    }
     .a-box > .a-box-inner {
         background-color: #e0d0f3 !important;
     }
     .a-box-title > .a-box-inner{        
         background-color: #8050f3 !important;
+        background: linear-gradient(#7030d0 , #8050f3) !important;
     }
     .aui-nav-row {
         background: linear-gradient(#ffffff, #a080f3) !important;
@@ -21,12 +25,14 @@
     }
     .a-expander-header {
         background-color: #8050f3 !important;
+        background: linear-gradient(#7030d0 , #8050f3) !important;
     }
     .a-expander-content{
         background-color: #e0d0f3 !important;
     }
     .a-link-section-expander {
         background-color: #8050f3 !important;
+        background: linear-gradient(#7030d0 , #8050f3) !important;
     }
     table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
         background-color:#e5d5f3 !important;
