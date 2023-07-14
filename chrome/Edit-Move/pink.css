@@ -1,5 +1,6 @@
 @-moz-document domain(http://aft-qt-na.aka.amazon.com) {
   body {
-    background-color: #ffeef3
+    background-color: #ffeef3 !important;
+    color: #201118 !important;
   }
 }
