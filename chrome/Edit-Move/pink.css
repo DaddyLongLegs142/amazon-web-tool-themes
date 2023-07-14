@@ -1,6 +1,43 @@
-@-moz-document domain(http://aft-qt-na.aka.amazon.com) {
+@-moz-document domain(aft-qt-na.aka.amazon.com) {
   body {
     background-color: #ffeef3 !important;
-    color: #201118 !important;
+    color: #603148 !important;
+  }
+  a, a:link, a:visited {
+    color: #bb2288 !important;
+  }
+  .a-box {
+    background-color: #ffeef3 !important;
+    border-color: #eec9e0 !important;
+  }
+  .a-box.a-color-alternate-background{
+    background-color: #f0ddee !important;
+    border-color: #f0ddee !important;
+  }
+  .a-divider-inner {
+    border-top-color: #bf99ad !important;
+  }
+  .a-divider-inner::after {
+    background: linear-gradient(#ffeef3, #ffeef3) !important;
+  }
+  div.aft-tool-action-box {
+    background-color: #bf0088 !important;
+    border-color: #bf0088 !important;
+  }
+  .a-button-primary {
+    background-color: #cc6655 !important;
+    border-color: #cc6655 !important;
+  }
+  h5 {
+    background-color: #ffeef3 !important;
+  }
+  .a-icon.a-icon-radio {
+    background-image: url(./pink-icons.png) !important;
+  }
+  input:focus+.a-icon {
+    box-shadow: 0 0 0 0.2rem #f3c8fa !important;
+  }
+  input:focus+.a-icon:after {
+    border: 0.1rem solid #bf0088 !important;
   }
 }
