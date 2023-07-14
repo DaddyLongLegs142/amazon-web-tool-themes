@@ -1,12 +1,24 @@
 @-moz-document domain(aft-poirot-website-iad.iad.proxy.amazon.com) {
+    .flex-layout--row {
+        overflow: auto !important;
+    }
+    .flex-layout--column {
+        overflow: auto !important;
+    }
     body {
         background-color: #ff80aa !important;
     }
     #app-root {
-        background-color: #ffaadd !important;
+        background-color: #ffe0f8 !important;
     }
     .navbar--variant-default {
         background-color: #ff80aa !important;
+    }
+    .box--default {
+        background-color: #fff8fe !important;
+    }
+    .box--gray {
+        background-color: #ebd0e0 !important;
     }
     div.ps-nav-bar .menu--header.clickable {
         background-color: #ff80aa !important;
