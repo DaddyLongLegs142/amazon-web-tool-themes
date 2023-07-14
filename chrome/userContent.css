@@ -1,5 +1,8 @@
 /*FC Research*/
-@import "./FCResearch/pink.css";
+@import "./FCResearch/purple.css";
 
 /*Sideline*/
 @import "./Sideline/pink.css";
+
+/*EditItems, MoveItems, FcSkuFlip, ioPrint*/
+@import "./Edit-Move/pink.css";
