@@ -3,41 +3,101 @@
     background-color: #ffeef3 !important;
     color: #603148 !important;
   }
+
+  img {
+    border-width: 1px !important;
+    border-color: #603148 !important;
+  }
+
   a, a:link, a:visited {
     color: #bb2288 !important;
   }
+
+  h5 {
+    background-color: #ffeef3 !important;
+  }
+
+  input:focus+.a-icon {
+    box-shadow: 0 0 0 0.2rem #f3c8fa !important;
+  }
+
+  input:focus+.a-icon::after {
+    border: 0.1rem solid #bf0088 !important;
+  }
+
+  .a-form-focus {
+    box-shadow: 0 0 0 0.2rem #f3c8fa !important;
+    border-color: #bf0088 !important;
+  }
+
   .a-box {
     background-color: #ffeef3 !important;
     border-color: #eec9e0 !important;
   }
+
   .a-box.a-color-alternate-background{
     background-color: #f0ddee !important;
     border-color: #f0ddee !important;
   }
+
   .a-divider-inner {
     border-top-color: #bf99ad !important;
   }
+
   .a-divider-inner::after {
     background: linear-gradient(#ffeef3, #ffeef3) !important;
   }
-  div.aft-tool-action-box {
+
+  .aft-tool-action-box {
     background-color: #bf0088 !important;
     border-color: #bf0088 !important;
   }
+
+  .aft-tool-success-box {
+    background-color: #98ff11 !important;
+    border-color: #98ff11 !important;
+  }
+
+  .aft-tool-info-box {
+    background-color: #f0ddee !important;
+    border-color: #f0ddee !important;
+  }
+  
+  .aft-tool-critical-box {
+    border-color: #f44d38 !important;
+  }
+
+  .a-button {
+    background:linear-gradient(#fff, #ffeef3) !important;
+  }
+
   .a-button-primary {
-    background-color: #cc6655 !important;
+    background: linear-gradient(#dd8877, #cc6655) !important;
     border-color: #cc6655 !important;
   }
-  h5 {
-    background-color: #ffeef3 !important;
-  }
+
   .a-icon.a-icon-radio {
     background-image: url(./pink-icons.png) !important;
   }
-  input:focus+.a-icon {
-    box-shadow: 0 0 0 0.2rem #f3c8fa !important;
+  
+  .a-popover-inner {
+    background-color: #ffeef3 !important;
   }
-  input:focus+.a-icon:after {
-    border: 0.1rem solid #bf0088 !important;
+  
+  .a-color-link, .a-color-link:link, .a-color-link:visited  {
+    color: #bb2288 !important;
   }
+  .a-keyvalue th {
+    background-color: #f0ddee !important;
+  }
+  
+  .a-arrow {
+    border-bottom-color: #ffeef3 !important;;
+  }
+  
+  .a-global-nav-wrapper {
+    background: linear-gradient(#ffeef3ff, #eec9e050) !important;
+    border-bottom-color: #bf99ad !important;
+  }
+
 }
