@@ -1,0 +1,59 @@
+@-moz-document domain(fcresearch-na.aka.amazon.com) {
+  --background-primary: #331144;
+  --background-button: #756685;
+  --background-secondary: #442255;
+  --background-title: #220033;
+  --background-tableStripes-odd: #553366;
+  --background-tableStripes-even: #775588;
+  --light-gradient: linear-gradient(#9977aa, #704075);
+  --dark-gradient: linear-gradient(#704075, var(--background-title));
+  --drawer-handle: linear-gradient(left, #9977aa00, #554466b4);
+  --drawer-handle-border: #110022;
+
+  
+    body {
+        background-color: var(--background-primary) !important;
+    }
+    button {
+        background-color: var(--background-button) !important;
+    }
+    .dataTables_scrollBody {
+        max-height: 90vh !important;
+    }
+    .a-box > .a-box-inner {
+        background-color: var(--background-secondary) !important;
+    }
+    .a-box-title > .a-box-inner{        
+        background-color: var(--background-title) !important;
+        background: var(--dark-gradient) !important;
+    }
+    .aui-nav-row {
+        background: var(light-gradient) !important;
+        background-color: #00000000;
+    } 
+    #side-bar {
+        background-color: var(--background-primary) !important;
+        overflow-y: auto !important;
+    }
+    .a-expander-header {
+        background-color: var(--background-title) !important;
+        background: var(--dark-gradient) !important;
+    }
+    .a-expander-content{
+        background-color: var(--background-secondary) !important;
+    }
+    .a-link-section-expander {
+        background-color: var(--background-title) !important;
+        background: var(--dark-gradient) !important;
+    }
+    table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
+        background-color: var(--background-tableStripes-odd) !important;
+    }
+    table.a-bordered.a-horizontal-stripes tr:nth-child(even) {
+        background-color: var(--background-tableStripes-even) !important;
+    #drawer-handle:hover .separator {
+        background: var(--drawer-handle) !important;
+        border-right-color: var(--drawer-handle-border) !important;
+    }
+} 
+
