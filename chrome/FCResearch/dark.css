@@ -1,15 +1,15 @@
 @-moz-document domain(fcresearch-na.aka.amazon.com) {
   :root {
-  --background-primary: #331144;
-  --background-button: #756685;
-  --background-secondary: #442255;
-  --background-title: #220033;
-  --background-tableStripes-odd: #553366;
-  --background-tableStripes-even: #775588;
-  --light-gradient: linear-gradient(#9977aa, #704075);
-  --dark-gradient: linear-gradient(#704075, var(--background-title));
-  --drawer-handle: linear-gradient(left, #9977aa00, #554466b4);
-  --drawer-handle-border: #110022;
+  --background-primary: #333333;
+  --background-button: #757575;
+  --background-secondary: #444444;
+  --background-title: #222222;
+  --background-tableStripes-odd: #555555;
+  --background-tableStripes-even: #777777;
+  --light-gradient: linear-gradient(#999999, #707070);
+  --dark-gradient: linear-gradient(#707070, var(--background-title));
+  --drawer-handle: linear-gradient(left, #99999900, #555555b4);
+  --drawer-handle-border: #111111;
   }
   
     body {
