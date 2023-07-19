@@ -1,0 +1,48 @@
+@-moz-document domain(aft-poirot-website-iad.iad.proxy.amazon.com) {
+    :root {
+        --background-primary: #333333 ;
+        --background-secondary: #444444 ;
+        --background-title: #222222 ;
+        --background-muted: #555555 ;
+        --background-title-link-hover: #111111 ;
+        --background-success: #006600 ;
+        --background-warn: #884400 ;
+        --background-err: #660000 ;
+    }
+    .flex-layout--row {
+        overflow: auto !important;
+    }
+    .flex-layout--column {
+        overflow: auto !important;
+    }
+    body {
+        background-color: var(--background-primary) !important;
+    }
+    #app-root {
+        background-color: var(--background-primary) !important;
+    }
+    .navbar--variant-default {
+        background-color: var(--background-title) !important;
+    }
+    .box--default {
+        background-color: var(--background-secondary) !important;
+    }
+    .box--gray {
+        background-color: var(--background-muted) !important;
+    }
+    div.ps-nav-bar .menu--header.clickable {
+        background-color: var(--background-title) !important;
+    }
+    div.ps-nav-bar .menu--header.clickable:hover {
+        background-color: var(--background-title-link-hover) !important;
+    }
+    .alert--success {
+        background-color: var(--background-success) !important;
+    }
+    .alert--warning {
+        background-color: var(--background-warn) !important;
+    }
+    .alert--error {
+        background-color: var(--background-err) !important;
+    }
+}
