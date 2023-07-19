@@ -1,4 +1,5 @@
 @-moz-document domain(fcresearch-na.aka.amazon.com) {
+  :root {
   --background-primary: #331144;
   --background-button: #756685;
   --background-secondary: #442255;
@@ -9,7 +10,7 @@
   --dark-gradient: linear-gradient(#704075, var(--background-title));
   --drawer-handle: linear-gradient(left, #9977aa00, #554466b4);
   --drawer-handle-border: #110022;
-
+  }
   
     body {
         background-color: var(--background-primary) !important;
