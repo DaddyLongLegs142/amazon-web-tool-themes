@@ -1,19 +1,31 @@
 @-moz-document domain(fcresearch-na.aka.amazon.com) {
-  :root {
-  --background-primary: #333333;
-  --background-button: #757575;
-  --background-secondary: #444444;
-  --background-title: #222222;
-  --background-tableStripes-odd: #555555;
-  --background-tableStripes-even: #777777;
-  --light-gradient: linear-gradient(#999999, #707070);
-  --dark-gradient: linear-gradient(#707070, var(--background-title));
-  --drawer-handle: linear-gradient(left, #99999900, #555555b4);
-  --drawer-handle-border: #111111;
-  }
+    :root {
+      --text-primary: #aaaaaa;
+      --text-link: #b0a0cc;
+      --border-primary: #000000;
+      --background-primary: #333333;
+      --background-button: #757575;
+      --background-secondary: #444444;
+      --background-title: #222222;
+      --background-tableStripes-odd: #555555;
+      --background-tableStripes-even: #777777;
+      --light-gradient: linear-gradient(#999999, #707070);
+      --dark-gradient: linear-gradient(#707070, var(--background-title));
+      --drawer-handle: linear-gradient(to right, #bbbbbb00, #999999b0);
+      --drawer-handle-border: #888888;
+    }
   
     body {
+        color: var(--text-primary) !important;
         background-color: var(--background-primary) !important;
+        border-color: var(--border-primary) !important;
+    }
+    div {
+        border-color: var(--border-primary) !important;
+    }
+    
+    a {
+        color: var(--text-link) !important;
     }
     button {
         background-color: var(--background-button) !important;
@@ -29,7 +41,7 @@
         background: var(--dark-gradient) !important;
     }
     .aui-nav-row {
-        background: var(light-gradient) !important;
+        background: var(--light-gradient) !important;
         background-color: #00000000;
     } 
     #side-bar {
@@ -48,13 +60,17 @@
         background: var(--dark-gradient) !important;
     }
     table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
-        background-color: var(--background-tableStripes-odd) !important;
+        /*! background-color: var(--background-tableStripes-odd) !important; */
     }
     table.a-bordered.a-horizontal-stripes tr:nth-child(even) {
         background-color: var(--background-tableStripes-even) !important;
+    }
+    table.a-bordered tr:first-child th {
+        background-color: var(--background-title) !important;
+    }
+    
     #drawer-handle:hover .separator {
         background: var(--drawer-handle) !important;
         border-right-color: var(--drawer-handle-border) !important;
     }
 } 
-
