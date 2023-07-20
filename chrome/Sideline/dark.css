@@ -1,13 +1,19 @@
 @-moz-document domain(aft-poirot-website-iad.iad.proxy.amazon.com) {
     :root {
-        --background-primary: #333333 ;
-        --background-secondary: #444444 ;
-        --background-title: #222222 ;
-        --background-muted: #555555 ;
-        --background-title-link-hover: #111111 ;
-        --background-success: #006600 ;
-        --background-warn: #884400 ;
-        --background-err: #660000 ;
+        --text-primary: #e0e0e0ff;
+        --text-title: #e0e0e0ff;
+        --text-blue: #0088c5ff;
+        --text-white: #f3f3ffff;
+        --text-black: #000000ff;
+        --background-primary: #333333ff ;
+        --background-secondary: #444444ff ;
+        --background-title: #222222ff ;
+        --background-menu: #000000aa;
+        --background-muted: #555555ff ;
+        --background-title-link-hover: #111111ff ;
+        --background-success: #006600ff ;
+        --background-warn: #884400ff ;
+        --background-err: #660000ff ;
     }
     .flex-layout--row {
         overflow: auto !important;
@@ -17,24 +23,86 @@
     }
     body {
         background-color: var(--background-primary) !important;
+        color: var(--text-primary) !important;
+    }
+    input {
+        color: var(--text-primary) !important;
     }
     #app-root {
         background-color: var(--background-primary) !important;
+        color: var(--text-primary);
+    }
+    .icon--color-dark-blue {
+        color: var(--text-primary) !important;
+    }
+    .navbar {
+        color: var(--text-title) !important;;
     }
     .navbar--variant-default {
+        background-color: var(--background-title) !important;        
+    }
+    .menu {
+        background-color: var(--background-menu) !important;
+    }
+    .menu--inner {
+        background-color: var(--background-muted) !important;
+    }
+    .btn-ghost {
+        color: var(--text-blue) !important;
+    }
+    .btn-ghost:hover {
         background-color: var(--background-title) !important;
+    }
+    .btn-primary {
+        background-color: var(--background-title) !important;
+        color: var(--text-primary) !important;
+        border-bottom-color: var(--background-title-link-hover) !important;
+    }
+    .btn-secondary {
+        color: var(--text-title) !important;
+    }
+    .btn-tertiary {
+        background-color: var(--background-muted) !important;
+        border-color: var(--text-black) !important;
+        color: var(--text-primary) !important;
     }
     .box--default {
         background-color: var(--background-secondary) !important;
     }
+    .box--border-default {
+        border-color: var(--background-muted) !important;
+    }
     .box--gray {
         background-color: var(--background-muted) !important;
     }
+    .field-input {
+        background-color: var(--background-muted) !important;
+        caret-color: var(--text-blue) !important;
+    }
+    .field-input:focus {
+        border-color: var(--text-blue) !important;
+    }
     div.ps-nav-bar .menu--header.clickable {
         background-color: var(--background-title) !important;
+        color: var(--text-title) !important;
     }
     div.ps-nav-bar .menu--header.clickable:hover {
         background-color: var(--background-title-link-hover) !important;
+    }
+    .modal-fhig {
+        background-color: var(--background-muted) !important;
+    }
+    .modal-fhig--header {
+        background-color: var(--background-title) !important;
+    }
+    .text--variant-bright-blue{
+        color: var(--text-blue) !important;
+    }
+    .text--variant-white{
+        color: var(--text-white) !important;
+    }
+    .text--variant-black {
+        color: var(--text-primary) !important;
     }
     .alert--success {
         background-color: var(--background-success) !important;
