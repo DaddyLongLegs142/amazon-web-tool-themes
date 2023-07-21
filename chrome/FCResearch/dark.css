@@ -1,18 +1,23 @@
 @-moz-document domain(fcresearch-na.aka.amazon.com) {
     :root {
       --text-primary: #aaaaaa;
+      --text-secondary: #ddddddff;
       --text-link: #b0a0cc;
       --border-primary: #000000;
+      --border-secondary: #666666ff;
       --background-primary: #333333;
       --background-button: #757575;
       --background-secondary: #444444;
       --background-title: #222222;
       --background-tableStripes-odd: #555555;
       --background-tableStripes-even: #777777;
+      --background-success: #11880a;
+      --background-err: #882211;
       --light-gradient: linear-gradient(#999999, #707070);
       --dark-gradient: linear-gradient(#707070, var(--background-title));
       --drawer-handle: linear-gradient(to right, #bbbbbb00, #999999b0);
-      --drawer-handle-border: #888888;
+      --drawer-handle-border: #888888ff;
+      --shadow-primary: #bbbbbbff;
     }
   
     body {
@@ -40,6 +45,13 @@
         background-color: var(--background-title) !important;
         background: var(--dark-gradient) !important;
     }
+    .a-color-state {
+        color: var(--text-secondary) !important;
+    }
+    input[type="text"]:focus, .a-input-text:focus, input[type="number"]:focus {
+        box-shadow: 0 0 0 3px var(--shadow-primary) !important;
+        border-color: var(--border-secondary) !important;
+    }
     .aui-nav-row {
         background: var(--light-gradient) !important;
         background-color: #00000000;
@@ -59,8 +71,14 @@
         background-color: var(--background-title) !important;
         background: var(--dark-gradient) !important;
     }
-    table.a-bordered.a-horizontal-stripes tr:nth-child(odd){
-        /*! background-color: var(--background-tableStripes-odd) !important; */
+    table.a-bordered {
+        border-color: var(--border-secondary) !important;
+    }
+    table.a-bordered td, table.a-bordered th {
+        border-color: var(--border-secondary) !important;
+    }
+    table.a-bordered tr:nth-child(odd){
+        background-color: var(--background-tableStripes-odd) !important;
     }
     table.a-bordered.a-horizontal-stripes tr:nth-child(even) {
         background-color: var(--background-tableStripes-even) !important;
@@ -68,7 +86,20 @@
     table.a-bordered tr:first-child th {
         background-color: var(--background-title) !important;
     }
-    
+   
+    table.a-keyvalue th{
+        background-color: var(--background-tableStripes-odd) !important;
+        color: var(--text-primary) !important;
+    }
+    table.a-keyvalue th[style*="rgb(63, 89, 115)"] {
+        background-color: var(--background-title) !important;
+    }
+    tr[style*="rgb(53, 153, 51)"] {
+        background-color: var(--background-success) !important;
+    }
+    tr[style*="rgb(167, 50, 37)"] {
+        background-color: var(--background-err) !important;
+    }
     #drawer-handle:hover .separator {
         background: var(--drawer-handle) !important;
         border-right-color: var(--drawer-handle-border) !important;
