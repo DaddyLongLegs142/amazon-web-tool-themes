@@ -1,0 +1,138 @@
+@-moz-document domain(aft-qt-na.aka.amazon.com) {
+  :root {
+    --background-primary: #444444;
+    --background-secondary: #555555;
+    --background-title: linear-gradient(#444444, #bbbbbb);
+    --text-primary: #888888;
+    --text-secondary: #aaaaaa;
+    --button: linear-gradient(#000, #555555);
+    --button-text: #cccccc;
+    --button-primary-background: linear-gradient(#222222, #333333);
+    --button-primary-text: #dddddd;
+    --button-primary-border: #111111;
+    --button-secondary-text: #;
+    --border-primary: #777777;
+    --border-secondary: #777777;
+    --divider: #383838;
+    --shadow-primary: #454545;
+    --shadow-secondary: #565656;
+    --success: #98ff11;
+    --critical: #99100a;
+    
+  }
+  
+  body {
+    background-color: var(--background-primary) !important;
+    color: var(--text-primary) !important;
+  }
+
+  img {
+    border-width: 1px !important;
+    border-color: var(--text-primary) !important;
+  }
+
+  a, a:link, a:visited {
+    color: var(--text-secondary) !important;
+  }
+
+  h5 {
+    background-color: var(--background-primary) !important;
+  }
+
+  input:focus+.a-icon {
+    box-shadow: 0 0 0 0.2rem var(--shadow-primary) !important;
+  }
+
+  input:focus+.a-icon::after {
+    border: 0.1rem solid var(--border-primary) !important;
+  }
+
+  .a-form-focus {
+    box-shadow: 0 0 0 0.2rem var(--shadow-primary) !important;
+    border-color: var(--border-primary) !important;
+  }
+
+  .a-box {
+    background-color: var(--background-primary) !important;
+    border-color: var(--border-secondary) !important;
+  }
+
+  .a-box.a-color-alternate-background{
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-secondary) !important;
+  }
+
+  .a-divider-inner {
+    border-top-color: var(--divider) !important;
+  }
+
+  .a-divider-inner::after {
+    background: linear-gradient(var(--background-primary), var(--background-primary)) !important;
+  }
+
+  .aft-tool-action-box {
+    background-color: var(--border-primary) !important;
+    border-color: var(--border-primary) !important;
+  }
+
+  .aft-tool-success-box {
+    background-color: var(--success) !important;
+    border-color: var(--success) !important;
+  }
+
+  .aft-tool-info-box {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-secondary) !important;
+  }
+  
+  .aft-tool-critical-box {
+    border-color: var(--critical) !important;
+  }
+
+  .a-button {
+    background: linear-gradient(#fff, var(--background-primary)) !important;
+  }
+  
+  .a-button-toggle .a-button-inner {
+    background: linear-gradient(#bbb, var(--background-primary)) !important;
+
+  }
+
+  .a-button-primary {
+    background: var(--button-primary-background) !important;
+    border-color: var(--button-primary-border) !important;    
+    /*! box-shadow: 0 0 0 3px var(--shadow-secondary) !important; */
+  }
+  
+  .a-button-primary .a-button-text {
+    color: var(--button-primary-text) !important;
+  }
+  .a-button:not(.a-button-toggle) {
+    box-shadow: 0 .2rem .5rem 0 var(--shadow-secondary) !important;
+  }
+
+  .a-icon.a-icon-radio {
+    background-image: url(./pink-icons.png) !important;
+  }
+  
+  .a-popover-inner {
+    background-color: var(--background-primary) !important;
+  }
+  
+  .a-color-link, .a-color-link:link, .a-color-link:visited  {
+    color: var(--text-secondary) !important;
+  }
+  .a-keyvalue th {
+    background-color: var(--background-secondary) !important;
+  }
+  
+  .a-arrow {
+    border-bottom-color: var(--background-primary) !important;;
+  }
+  
+  .a-global-nav-wrapper {
+    background: var(--background-title) !important;
+    border-bottom-color: var(--divider) !important;
+  }
+
+}
